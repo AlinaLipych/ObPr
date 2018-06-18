@@ -1,0 +1,67 @@
+body {
+  background-attachment: fixed;
+  background-image:url('../завантаження.jpg');
+  background-size:contain;
+}
+
+#bubbleCanvas {
+ 
+  background-color: black;
+  background-position: -372px -105px;
+  background-size: 236% 125%;
+  background-repeat: no-repeat;
+  display: flex;
+  margin: auto;
+  opacity: 0.9;
+  border: 5px solid white;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.instructions {
+  position:absolute;
+  top:12px;
+  font-size: 11px;
+  box-shadow: 5px 5px #888888;
+  border: 2px solid black;
+  left: 20px;
+  text-align: center;
+  padding-left:10px;
+  padding-right:10px;
+  background: white;
+}
+
+.instructions-header {
+  font-size: 30px;
+}
+
+.win-header {
+  font-size: 25px;
+}
+.instructions2 {
+  position:absolute;
+  top:370px;
+  font-size: 10px;
+  box-shadow: 5px 5px #888888;
+  border: 2px solid black;
+  left: 20px;
+  text-align: center;
+  padding-left:10px;
+  padding-right:10px;
+  background: white;
+}
+
+.instructions-header2 {
+  font-size: 30px;
+}
+
+.win-header2 {
+  font-size: 25px;
+}
+
+
+
+
